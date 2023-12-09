@@ -1,0 +1,47 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personajes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+}
+
+.personaje {
+  text-align: center;
+}
+
+.personajes h3,
+.personajes p {
+  margin: 0;
+}
+
+.personajes img {
+  border-radius: 8px;
+  margin-top: 16px;
+  width: 80%;
+  height: 80%;
+}
